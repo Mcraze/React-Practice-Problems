@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
+
+:root {
+  --color-text: #1b1b1b;
+  --color-background: #f4f4f5;
+}
+
+[data-theme="dark"] {
+  --color-text: #f4f4f5;
+  --color-background: #1b1b1b;
+}
+
+body {
+  color: var(--color-text);
+  background: var(--color-background);
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+@theme {
+  --color-textColor: :var(--color-text);
+  --color-backgroundColor: var(--color-background);
+}
+
+@layer utilities {
+  .btn-primary {
+    @apply px-4 py-2 rounded-md text-white bg-blue-600 hover:bg-blue-700 transition;
+  }
+
+  .btn-secondary {
+    @apply px-4 py-2 rounded-md text-gray-800 bg-gray-300 hover:bg-gray-400 transition;
+  }
+}

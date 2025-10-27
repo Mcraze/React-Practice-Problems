@@ -4,7 +4,10 @@ import { problemsList } from "../problems";
 const MainSection = () => {
     return (
         <>
-            <h2 className="text-4xl mb-6">Problem List</h2>
+            <div className="text-center rounded-lg bg-emerald-400 flex justify-center items-center px-4 py-20 md:py-25 lg:py-30">
+                <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl text-white">REACT PROBLEMS</h1>
+            </div>
+            <h2 className="text-2xl md:text-4xl mt-12 mb-4">Problem List</h2>
             <div className="grid md:grid-cols-3 gap-6">
                 {problemsList.map((problem) => (
                     <Link to={problem.path} key={problem.id} className="p-4 rounded-lg border-2 border-neutral-300 dark:border-neutral-700 bg-zinc-100 dark:bg-zinc-800">

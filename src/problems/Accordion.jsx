@@ -34,7 +34,7 @@ const Accordion = () => {
     }
 
     return (
-        <div className="max-w-4xl m-auto p-4 rounded-lg grid gap-4 border-2 border-neutral-300 dark:border-neutral-700 bg-zinc-100 dark:bg-zinc-800">
+        <div className="max-w-4xl m-auto card grid gap-4">
             {items.map((accordion, index) => (
                 <div key={index}
                     className="rounded-lg border-2 border-neutral-300 dark:border-neutral-700">

@@ -32,10 +32,19 @@ body {
 
 @layer utilities {
   .btn-primary {
-    @apply px-4 py-2 rounded-md text-white bg-blue-600 hover:bg-blue-700 transition;
+    @apply px-4 py-2 rounded-md text-white bg-blue-600 hover:bg-blue-700 transition cursor-pointer;
   }
 
   .btn-secondary {
-    @apply px-4 py-2 rounded-md text-gray-800 bg-gray-300 hover:bg-gray-400 transition;
+    @apply px-4 py-2 rounded-md text-gray-800 bg-gray-300 hover:bg-gray-400 transition cursor-pointer;
   }
+
+  .card {
+    @apply p-4 rounded-lg border-2 border-neutral-300 dark:border-neutral-700 bg-zinc-100 dark:bg-zinc-800;
+  }
+
+  input {
+    @apply w-full border-2 p-2 rounded-lg border-neutral-300 dark:border-neutral-700 focus:outline-none focus:border-blue-500;
+  }
+
 }

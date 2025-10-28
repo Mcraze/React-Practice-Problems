@@ -23,8 +23,8 @@ const ThemeToggle = () => {
     };
 
     return (
-        <button onClick={toggleTheme} aria-label="Toggle Theme">
-            {theme === "light" ? <Sun size={20} /> : <Moon />}
+        <button className="p-2 rounded-lg bg-zinc-800 dark:bg-zinc-100 text-zinc-100 dark:text-zinc-800 cursor-pointer" onClick={toggleTheme} aria-label="Toggle Theme">
+            {theme === "light" ? <Sun size={20} /> : <Moon size={20} />}
         </button>
     );
 }

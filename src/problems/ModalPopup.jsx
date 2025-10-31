@@ -9,7 +9,7 @@ const ModalPopup = () => {
             {isOpen &&
                 <div
                     style={{ position: "fixed", top: 0, left: 0, height: "100vh", width: "100%" }}
-                    className="flex items-center justify-center bg-white/85 dark:bg-black/85" onClick={() => setIsOpen(!isOpen)}>
+                    className="p-4 flex items-center justify-center bg-white/85 dark:bg-black/85" onClick={() => setIsOpen(!isOpen)}>
                     <div className="max-w-xl w-full card grid gap-4" onClick={e => e.stopPropagation()}>
                         <h3 className="text-xl">Modal Header</h3>
                         <p>This popup will close when clicked on the close button and will also close when clicked anywhere behind the popup on the overlay.</p>

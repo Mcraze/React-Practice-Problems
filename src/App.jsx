@@ -8,8 +8,8 @@ const App = () => {
     return (
         <Router>
             <Header />
-            <main className="grow p-4 flex flex-col">
-                <div className="max-w-7xl w-full m-auto">
+            <main className="grow p-4 flex flex-col justify-center">
+                <div className="max-w-7xl w-full mx-auto h-full">
                     <Routes>
                         <Route path="/" element={<MainSection />} />
                         {problemsList.map((problem) => (

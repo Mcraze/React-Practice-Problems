@@ -30,6 +30,7 @@ The problems are organized by difficulty level — feel free to explore and lear
 | Card Carousel | Build a card carousel component that displays one card at a time with navigation buttons to navigate back and forth. |
 | Dice Roller | Create a Dice Roller that simulates rolling a dice when a button is clicked. Handle a case where the button is clicked multiple times quickly. |
 | Image Carousel | Build an image carousel which works with navigation buttons as well as the pagination provided below |
+| Image Gallery | Create a component that should allow users to view, add, and delete images. Each image is represented by a URL. |
 | Modal in React | Create a reusable Modal Component in React that displays a message when triggered by a button click. |
 | Star Rating | Implement a star rating component where users can select a rating by clicking on stars. |
 | Tabs Component | Implement a Tabs Component that allows users to switch between different tab content sections. |

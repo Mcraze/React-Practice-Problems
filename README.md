@@ -22,6 +22,7 @@ The problems are organized by difficulty level — feel free to explore and lear
 | Image Switcher | Build an image switcher component that updates the main image by clicking on the image thumbnail accordingly. |
 | Mortgage Calculator | Create a Mortgage Calculator in React using useReducer that allows users to input details to calculate the monthly mortgage payment. |
 | Progress Bar | Create a Progress Bars Component in React that visually represents progress values for bar. |
+| Read More | Create a React component that displays a paragraph of text and allows users to expand or collapse it based on read more click. |
 | Seconds Stopwatch | Build a simple stopwatch with Start, Stop, and Reset functionality. The stopwatch should display elapsed time in seconds. |
 
 ### Medium Problems

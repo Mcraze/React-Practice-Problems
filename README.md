@@ -22,6 +22,8 @@ The problems are organized by difficulty level — feel free to explore and lear
 | Image Switcher | Build an image switcher component that updates the main image by clicking on the image thumbnail accordingly. |
 | Mortgage Calculator | Create a Mortgage Calculator in React using useReducer that allows users to input details to calculate the monthly mortgage payment. |
 | Progress Bar | Create a Progress Bars Component in React that visually represents progress values for bar. |
+| Read More | Create a React component that displays a paragraph of text and allows users to expand or collapse it based on read more click. |
+| Search Filter | Create a React component that shows the filtered fruits based on the text inserted into the Input box in Real-time. |
 | Seconds Stopwatch | Build a simple stopwatch with Start, Stop, and Reset functionality. The stopwatch should display elapsed time in seconds. |
 
 ### Medium Problems
@@ -30,6 +32,7 @@ The problems are organized by difficulty level — feel free to explore and lear
 | Card Carousel | Build a card carousel component that displays one card at a time with navigation buttons to navigate back and forth. |
 | Dice Roller | Create a Dice Roller that simulates rolling a dice when a button is clicked. Handle a case where the button is clicked multiple times quickly. |
 | Image Carousel | Build an image carousel which works with navigation buttons as well as the pagination provided below |
+| Image Gallery | Create a component that should allow users to view, add, and delete images. Each image is represented by a URL. |
 | Modal in React | Create a reusable Modal Component in React that displays a message when triggered by a button click. |
 | Star Rating | Implement a star rating component where users can select a rating by clicking on stars. |
 | Tabs Component | Implement a Tabs Component that allows users to switch between different tab content sections. |

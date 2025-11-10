@@ -37,6 +37,7 @@ The problems are organized by difficulty level — feel free to explore and lear
 | Star Rating | Implement a star rating component where users can select a rating by clicking on stars. |
 | Tabs Component | Implement a Tabs Component that allows users to switch between different tab content sections. |
 | Todo List | Build a Todo List component which enables users to Add task, mark the task as complete, delete task |
+| Transfer List | Build a simple Transfer List component in React that allows users to move items from one list to another list. |
 
 <br>
 <p align="center">Created with 💖 by Mitesh Adelkar</p>

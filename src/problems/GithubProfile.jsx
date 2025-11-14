@@ -11,7 +11,7 @@ const GithubProfile = () => {
         if (username) {
             try {
                 setError("")
-                const response = await fetch(`https://api.github.com/users/${username}`)
+                const response = await fetch(`https://api.github.com/users/${username.trim()}`)
 
                 if (response.ok) {
                     const data = await response.json()
@@ -25,10 +25,12 @@ const GithubProfile = () => {
                     setUsername("")
                 }
                 else {
+                    setUserData({})
                     setError("User not available")
                 }
             }
             catch (err) {
+                setUserData({})
                 setError(err)
             }
         }
@@ -47,11 +49,14 @@ const GithubProfile = () => {
             </div>
             {error && <div className="mt-4 text-center text-red-500">{error}</div>}
             {
-                userdata &&
+                userdata.name &&
                 <div className="mt-4">
                     <img src={userdata.avatar} alt={userdata.name} className="max-w-40 w-full rounded-full mx-auto" />
-                    <div className="text-center mt-2 text-xl">{userdata.name}</div>
-
+                    <div className="text-center mt-2 text-xl">{userdata ? userdata.name : "Username not Available"}</div>
+                    <div className="text-center">{userdata.bio}</div>
+                    {
+                        userdata.location && <div className="text-center mt-4">{userdata.location}</div>
+                    }
                 </div>
             }
         </div>

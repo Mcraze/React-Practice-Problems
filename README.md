@@ -25,6 +25,7 @@ The problems are organized by difficulty level — feel free to explore and lear
 | Read More | Create a React component that displays a paragraph of text and allows users to expand or collapse it based on read more click. |
 | Search Filter | Create a React component that shows the filtered fruits based on the text inserted into the Input box in Real-time. |
 | Seconds Stopwatch | Build a simple stopwatch with Start, Stop, and Reset functionality. The stopwatch should display elapsed time in seconds. |
+| Skeleton Loading | Create a card component with skeleton loading effect for heading and content which will load after 3 seconds delay. |
 
 ### Medium Problems
 | Problem Name | Problem Description |

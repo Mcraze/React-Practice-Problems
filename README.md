@@ -35,6 +35,7 @@ The problems are organized by difficulty level — feel free to explore and lear
 | Image Carousel | Build an image carousel which works with navigation buttons as well as the pagination provided below |
 | Image Gallery | Create a component that should allow users to view, add, and delete images. Each image is represented by a URL. |
 | Modal in React | Create a reusable Modal Component in React that displays a message when triggered by a button click. |
+| Reusable Toast | Implement a Toast notification feature that provides brief feedback to the user in the form of a popup. |
 | Star Rating | Implement a star rating component where users can select a rating by clicking on stars. |
 | Tabs Component | Implement a Tabs Component that allows users to switch between different tab content sections. |
 | Todo List | Build a Todo List component which enables users to Add task, mark the task as complete, delete task |

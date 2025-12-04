@@ -23,6 +23,7 @@ The problems are organized by difficulty level — feel free to explore and lear
 | Mortgage Calculator | Create a Mortgage Calculator in React using useReducer that allows users to input details to calculate the monthly mortgage payment. |
 | Progress Bar | Create a Progress Bars Component in React that visually represents progress values for bar. |
 | Read More | Create a React component that displays a paragraph of text and allows users to expand or collapse it based on read more click. |
+| Scroll to Top | Create a Back to Top button that appears when the user scrolls down the page and, when clicked, smoothly scrolls back to the top. |
 | Search Filter | Create a React component that shows the filtered fruits based on the text inserted into the Input box in Real-time. |
 | Seconds Stopwatch | Build a simple stopwatch with Start, Stop, and Reset functionality. The stopwatch should display elapsed time in seconds. |
 | Sidebar | Create a React sidebar component that can be toggled open or closed with a menu button and is animated. |

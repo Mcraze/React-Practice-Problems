@@ -44,6 +44,7 @@ The problems are organized by difficulty level — feel free to explore and lear
 | Tabs Component | Implement a Tabs Component that allows users to switch between different tab content sections. |
 | Todo List | Build a Todo List component which enables users to Add task, mark the task as complete, delete task |
 | Transfer List | Build a simple Transfer List component in React that allows users to move items from one list to another list. |
+| Word Counter | Build a Word Frequency Counter that dynamically analyzes user input text and displays how often each word appears. |
 
 <br>
 <p align="center">Created with 💖 by Mitesh Adelkar</p>

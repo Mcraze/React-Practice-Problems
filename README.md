@@ -28,6 +28,7 @@ The problems are organized by difficulty level — feel free to explore and lear
 | Seconds Stopwatch | Build a simple stopwatch with Start, Stop, and Reset functionality. The stopwatch should display elapsed time in seconds. |
 | Sidebar | Create a React sidebar component that can be toggled open or closed with a menu button and is animated. |
 | Skeleton Loading | Create a card component with skeleton loading effect for heading and content which will load after 3 seconds delay. |
+| Toggle Button Hook | Create a React component that displays a toggle button which switches its label between ON and OFF each time it is clicked. |
 | Toggle Password | Create a react component that allows users to input a password. User can toggle the password to show or hide. |
 
 ### Medium Problems

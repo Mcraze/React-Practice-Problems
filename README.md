@@ -1,5 +1,5 @@
 # ⚡ React Practice Problems
-This project is designed to help you (and others) learn React.js deeply through hands-on coding. It’s a collection of simple yet practical problems that strengthen your understanding of React concepts — perfect for interview preparation or improving your logic-building skills.
+This project is designed to help you (and others) learn React.js deeply through hands-on coding. It’s a collection of simple yet practical problems that strengthen your understanding of React concepts, perfect for interview preparation or improving your logic-building skills.
 
 Before you dive in, make sure you're comfortable with the fundamentals of React, including how the Virtual DOM works and the core React Hooks.
 
@@ -7,7 +7,7 @@ You can try solving each problem yourself or explore how they work through the l
 
 🔗 Live Demo: [React Practice Problems](https://react-practice-problems.netlify.app)
 
-The problems are organized by difficulty level — feel free to explore and learn at your own pace!
+The problems are organized by difficulty level, feel free to explore and learn at your own pace!
 
 ## Problem List
 
